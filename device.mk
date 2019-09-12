@@ -22,7 +22,7 @@ $(call inherit-product-if-exists, vendor/huawei/kiwi/kiwi-vendor.mk)
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-PRODUCT_ENFORCE_RRO_TARGETS := framework-res
+#PRODUCT_ENFORCE_RRO_TARGETS := framework-res
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -237,8 +237,8 @@ PRODUCT_PACKAGES += \
     qti-telephony-common \
     telephony-ext
 
-PRODUCT_BOOT_JARS += \
-    telephony-ext
+#PRODUCT_BOOT_JARS += \
+#    telephony-ext
 
 # Ramdisk
 PRODUCT_PACKAGES += \
