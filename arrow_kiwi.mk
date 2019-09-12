@@ -14,6 +14,9 @@
 
 $(call inherit-product, device/huawei/kiwi/full_kiwi.mk)
 
+# Enable updating of APEXes
+ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
 # Inherit some common ArrowOS stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
 
