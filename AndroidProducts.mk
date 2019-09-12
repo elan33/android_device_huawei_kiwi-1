@@ -18,6 +18,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/arrow_kiwi.mk
 	
 COMMON_LUNCH_CHOICES := \
-    aosp_kiwi-userdebug \
-    aosp_kiwi-eng \
-    aosp_kiwi-user
+    arrow_kiwi-userdebug \
+    arrow_kiwi-eng \
+    arrow_kiwi-user
